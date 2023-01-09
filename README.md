@@ -1,4 +1,4 @@
-# DopeSettings
+# DopeCow
 
 DopeSettings Tweak for iOS 16.1.2 and lower. It uses the MacDirtyCow exploit to overwrite files.
 
