@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "dcc7-small_101220211757506165cc9e500a2.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
