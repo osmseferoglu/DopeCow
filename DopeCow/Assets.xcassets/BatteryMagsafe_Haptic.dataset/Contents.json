@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "BatteryMagsafe_Haptic.caf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
