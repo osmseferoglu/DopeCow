@@ -7,7 +7,6 @@
 
 import SwiftUI
 import Foundation
-import FilePicker
 
 func cleanSpringboardHome(dope:Bool,noHomeBar:Bool,noDock:Bool,noRestrictions:Bool,noBanner:Bool,chargeSound:Bool,lockSound:Bool){
     if(dope) {dopifySettings()}
@@ -49,7 +48,7 @@ struct ContentView: View {
                 }
             Text("Don't tap on this image ⬆️")
             List{
-                Button("🐦 Follow me on Twitter") {
+                Button("🐦 @Osmannseferoglu") {
                     if let url = URL(string: "https://twitter.com/Osmannseferoglu") {
                         if UIApplication.shared.canOpenURL(url) {
                             UIApplication.shared.open(url, options: [:])
@@ -64,7 +63,15 @@ struct ContentView: View {
                         Text("No need to Respring")
                         Text("Apply and Close Settings app")
                     }}
-                Text("Needs Respring ⬇").foregroundColor(.red)
+               
+                HStack{
+                    Text("SpringBoard Tweaks")
+                    Image(systemName: "apps.iphone")
+                }
+                HStack{
+                    Text("Needs Respring")
+                    Image(systemName: "arrow.triangle.2.circlepath")
+                }.foregroundColor(.red)
                 HStack{
                     Image(systemName: "iphone.gen2")
                     Toggle(isOn: $removeHomeBar){
