@@ -14,6 +14,7 @@
 		AC13678F296CB12100F480CE /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = AC13678E296CB12100F480CE /* vm_unaligned_copy_switch_race.c */; };
 		AC136794296CB1C200F480CE /* DopeCowImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC136793296CB1C200F480CE /* DopeCowImplement.swift */; };
 		AC136796296CB27C00F480CE /* Overwrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC136795296CB27C00F480CE /* Overwrite.swift */; };
+		AC36EC572972E60B004A6892 /* fart.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC36EC562972E60B004A6892 /* fart.caf */; };
 		ACD3993E296F69FB000581F3 /* AWbolt.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3993D296F69EB000581F3 /* AWbolt.caf */; };
 		ACD3993F296F69FD000581F3 /* AWunlock.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3993C296F69E8000581F3 /* AWunlock.caf */; };
 		ACDEA53829718BEE0094ABF1 /* ribbit.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA53429718BEE0094ABF1 /* ribbit.caf */; };
@@ -38,17 +39,18 @@
 		AC13678E296CB12100F480CE /* vm_unaligned_copy_switch_race.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vm_unaligned_copy_switch_race.c; sourceTree = "<group>"; };
 		AC136793296CB1C200F480CE /* DopeCowImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopeCowImplement.swift; sourceTree = "<group>"; };
 		AC136795296CB27C00F480CE /* Overwrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overwrite.swift; sourceTree = "<group>"; };
+		AC36EC562972E60B004A6892 /* fart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fart.caf; path = DopeCow/fart.caf; sourceTree = SOURCE_ROOT; };
 		ACD3993C296F69E8000581F3 /* AWunlock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AWunlock.caf; path = DopeCow/AWunlock.caf; sourceTree = SOURCE_ROOT; };
 		ACD3993D296F69EB000581F3 /* AWbolt.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AWbolt.caf; path = DopeCow/AWbolt.caf; sourceTree = SOURCE_ROOT; };
-		ACDEA53429718BEE0094ABF1 /* ribbit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ribbit.caf; sourceTree = "<group>"; };
-		ACDEA53529718BEE0094ABF1 /* beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beep.caf; sourceTree = "<group>"; };
-		ACDEA53629718BEE0094ABF1 /* wow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wow.caf; sourceTree = "<group>"; };
-		ACDEA53729718BEE0094ABF1 /* du-duuuu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "du-duuuu.caf"; sourceTree = "<group>"; };
+		ACDEA53429718BEE0094ABF1 /* ribbit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ribbit.caf; path = DopeCow/ribbit.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA53529718BEE0094ABF1 /* beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = beep.caf; path = DopeCow/beep.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA53629718BEE0094ABF1 /* wow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = wow.caf; path = DopeCow/wow.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA53729718BEE0094ABF1 /* du-duuuu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "du-duuuu.caf"; path = "DopeCow/du-duuuu.caf"; sourceTree = SOURCE_ROOT; };
 		ACDEA53E29718D280094ABF1 /* ios6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ios6.caf; path = DopeCow/ios6.caf; sourceTree = SOURCE_ROOT; };
-		ACDEA5472972C5920094ABF1 /* Mario_Jump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mario_Jump.caf; sourceTree = "<group>"; };
-		ACDEA5492972C5CA0094ABF1 /* why_are_you_running.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = why_are_you_running.caf; sourceTree = "<group>"; };
-		ACDEA54B2972C5EE0094ABF1 /* he_he.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = he_he.caf; sourceTree = "<group>"; };
-		ACDEA54F2972C8B30094ABF1 /* Boom_Headshot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boom_Headshot.caf; sourceTree = "<group>"; };
+		ACDEA5472972C5920094ABF1 /* Mario_Jump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mario_Jump.caf; path = DopeCow/Mario_Jump.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA5492972C5CA0094ABF1 /* why_are_you_running.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = why_are_you_running.caf; path = DopeCow/why_are_you_running.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA54B2972C5EE0094ABF1 /* he_he.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = he_he.caf; path = DopeCow/he_he.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA54F2972C8B30094ABF1 /* Boom_Headshot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Boom_Headshot.caf; path = DopeCow/Boom_Headshot.caf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				AC13678E296CB12100F480CE /* vm_unaligned_copy_switch_race.c */,
 				ACDEA53E29718D280094ABF1 /* ios6.caf */,
 				ACDEA53529718BEE0094ABF1 /* beep.caf */,
+				AC36EC562972E60B004A6892 /* fart.caf */,
 				ACDEA53729718BEE0094ABF1 /* du-duuuu.caf */,
 				ACDEA53429718BEE0094ABF1 /* ribbit.caf */,
 				ACDEA5472972C5920094ABF1 /* Mario_Jump.caf */,
@@ -187,6 +190,7 @@
 				ACDEA53929718BEE0094ABF1 /* beep.caf in Resources */,
 				ACDEA53829718BEE0094ABF1 /* ribbit.caf in Resources */,
 				ACD3993F296F69FD000581F3 /* AWunlock.caf in Resources */,
+				AC36EC572972E60B004A6892 /* fart.caf in Resources */,
 				ACDEA53B29718BEE0094ABF1 /* du-duuuu.caf in Resources */,
 				ACDEA53F29718D280094ABF1 /* ios6.caf in Resources */,
 			);
@@ -331,11 +335,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"DopeCow/Preview Content\"";
-				DEVELOPMENT_TEAM = RN6AUMPBDY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DopeCow;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,9 +351,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.osm.DopeCow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "DopeCow/DopeCow-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -363,11 +372,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"DopeCow/Preview Content\"";
-				DEVELOPMENT_TEAM = RN6AUMPBDY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DopeCow;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -377,9 +388,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.osm.DopeCow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "DopeCow/DopeCow-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

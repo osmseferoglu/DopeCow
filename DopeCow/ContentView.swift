@@ -26,7 +26,13 @@ private let lockMenuItems = ContextMenu{
     } label: {
         Label("Beep", systemImage: "")
     }
-    
+    Button {
+        customLockSound(Name: "fart")
+        sleep(1)
+        customLockSound(Name: "fart")
+    } label: {
+        Label("Fart", systemImage: "")
+    }
 }
 
 
@@ -63,6 +69,14 @@ private let chargeMenuItems = ContextMenu {
         customChargeSound(Name: "du-duuuu")
     } label: {
         Label("Du-duuuu", systemImage: "")
+    }
+    
+    Button {
+        customLockSound(Name: "fart")
+        sleep(1)
+        customLockSound(Name: "fart")
+    } label: {
+        Label("Fart", systemImage: "")
     }
     
     Button {
@@ -164,6 +178,7 @@ struct ContentView: View {
                         Image(systemName: "platter.filled.bottom.iphone")
                         Toggle(isOn: $removeDockBg){
                             Text("Remove Dock Background")
+                            Text("This Feature is Buggy.")
                         }
                     }
                     
@@ -176,7 +191,7 @@ struct ContentView: View {
                     HStack {
                         Image(systemName: "bolt.fill")
                         Text("Charge Sound")
-                        Text("Select Tone")
+                        Text("Hold to Select Tone")
                             .foregroundColor(.accentColor)
                             .contextMenu(shouldShowMenu ? chargeMenuItems : nil)
                     }
@@ -184,12 +199,12 @@ struct ContentView: View {
                     
                     HStack {
                         Image(systemName: "lock.fill")
-                        Text("Lock Sound")
-                        Text("Select Tone")
+                            Text("Lock Sound")
+                        Text("Hold to Select Tone")
                             .foregroundColor(.accentColor)
                             .contextMenu(shouldShowMenu ? lockMenuItems : nil)
                     }
-                    
+                    Text("Tap Respring after Selecting Tone").foregroundColor(.red)
                     
                     
                 }
