@@ -14,10 +14,17 @@
 		AC13678F296CB12100F480CE /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = AC13678E296CB12100F480CE /* vm_unaligned_copy_switch_race.c */; };
 		AC136794296CB1C200F480CE /* DopeCowImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC136793296CB1C200F480CE /* DopeCowImplement.swift */; };
 		AC136796296CB27C00F480CE /* Overwrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC136795296CB27C00F480CE /* Overwrite.swift */; };
-		AC305686296DFF3C00EDD7BC /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = AC305685296DFF3C00EDD7BC /* Sounds */; };
-		ACD3993E296F69FB000581F3 /* BatteryMagsafe_Haptic.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3993D296F69EB000581F3 /* BatteryMagsafe_Haptic.caf */; };
-		ACD3993F296F69FD000581F3 /* AppleWatchUnlock.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3993C296F69E8000581F3 /* AppleWatchUnlock.caf */; };
-		ACDE8592296F54F400A43952 /* FilePicker in Frameworks */ = {isa = PBXBuildFile; productRef = ACDE8591296F54F400A43952 /* FilePicker */; };
+		ACD3993E296F69FB000581F3 /* AWbolt.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3993D296F69EB000581F3 /* AWbolt.caf */; };
+		ACD3993F296F69FD000581F3 /* AWunlock.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3993C296F69E8000581F3 /* AWunlock.caf */; };
+		ACDEA53829718BEE0094ABF1 /* ribbit.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA53429718BEE0094ABF1 /* ribbit.caf */; };
+		ACDEA53929718BEE0094ABF1 /* beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA53529718BEE0094ABF1 /* beep.caf */; };
+		ACDEA53A29718BEE0094ABF1 /* wow.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA53629718BEE0094ABF1 /* wow.caf */; };
+		ACDEA53B29718BEE0094ABF1 /* du-duuuu.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA53729718BEE0094ABF1 /* du-duuuu.caf */; };
+		ACDEA53F29718D280094ABF1 /* ios6.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA53E29718D280094ABF1 /* ios6.caf */; };
+		ACDEA5482972C5920094ABF1 /* Mario_Jump.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA5472972C5920094ABF1 /* Mario_Jump.caf */; };
+		ACDEA54A2972C5CA0094ABF1 /* why_are_you_running.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA5492972C5CA0094ABF1 /* why_are_you_running.caf */; };
+		ACDEA54C2972C5EE0094ABF1 /* he_he.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA54B2972C5EE0094ABF1 /* he_he.caf */; };
+		ACDEA5502972C8B30094ABF1 /* Boom_Headshot.caf in Resources */ = {isa = PBXBuildFile; fileRef = ACDEA54F2972C8B30094ABF1 /* Boom_Headshot.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +38,17 @@
 		AC13678E296CB12100F480CE /* vm_unaligned_copy_switch_race.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vm_unaligned_copy_switch_race.c; sourceTree = "<group>"; };
 		AC136793296CB1C200F480CE /* DopeCowImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopeCowImplement.swift; sourceTree = "<group>"; };
 		AC136795296CB27C00F480CE /* Overwrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overwrite.swift; sourceTree = "<group>"; };
-		AC305685296DFF3C00EDD7BC /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = DopeCow/Sounds; sourceTree = SOURCE_ROOT; };
-		ACD3993C296F69E8000581F3 /* AppleWatchUnlock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleWatchUnlock.caf; path = DopeCow/AppleWatchUnlock.caf; sourceTree = SOURCE_ROOT; };
-		ACD3993D296F69EB000581F3 /* BatteryMagsafe_Haptic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BatteryMagsafe_Haptic.caf; path = DopeCow/BatteryMagsafe_Haptic.caf; sourceTree = SOURCE_ROOT; };
+		ACD3993C296F69E8000581F3 /* AWunlock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AWunlock.caf; path = DopeCow/AWunlock.caf; sourceTree = SOURCE_ROOT; };
+		ACD3993D296F69EB000581F3 /* AWbolt.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AWbolt.caf; path = DopeCow/AWbolt.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA53429718BEE0094ABF1 /* ribbit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ribbit.caf; sourceTree = "<group>"; };
+		ACDEA53529718BEE0094ABF1 /* beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beep.caf; sourceTree = "<group>"; };
+		ACDEA53629718BEE0094ABF1 /* wow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wow.caf; sourceTree = "<group>"; };
+		ACDEA53729718BEE0094ABF1 /* du-duuuu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "du-duuuu.caf"; sourceTree = "<group>"; };
+		ACDEA53E29718D280094ABF1 /* ios6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ios6.caf; path = DopeCow/ios6.caf; sourceTree = SOURCE_ROOT; };
+		ACDEA5472972C5920094ABF1 /* Mario_Jump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mario_Jump.caf; sourceTree = "<group>"; };
+		ACDEA5492972C5CA0094ABF1 /* why_are_you_running.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = why_are_you_running.caf; sourceTree = "<group>"; };
+		ACDEA54B2972C5EE0094ABF1 /* he_he.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = he_he.caf; sourceTree = "<group>"; };
+		ACDEA54F2972C8B30094ABF1 /* Boom_Headshot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boom_Headshot.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDE8592296F54F400A43952 /* FilePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +86,17 @@
 				AC136793296CB1C200F480CE /* DopeCowImplement.swift */,
 				AC13678D296CB12100F480CE /* vm_unaligned_copy_switch_race.h */,
 				AC13678E296CB12100F480CE /* vm_unaligned_copy_switch_race.c */,
-				ACD3993C296F69E8000581F3 /* AppleWatchUnlock.caf */,
-				ACD3993D296F69EB000581F3 /* BatteryMagsafe_Haptic.caf */,
-				AC305685296DFF3C00EDD7BC /* Sounds */,
+				ACDEA53E29718D280094ABF1 /* ios6.caf */,
+				ACDEA53529718BEE0094ABF1 /* beep.caf */,
+				ACDEA53729718BEE0094ABF1 /* du-duuuu.caf */,
+				ACDEA53429718BEE0094ABF1 /* ribbit.caf */,
+				ACDEA5472972C5920094ABF1 /* Mario_Jump.caf */,
+				ACDEA5492972C5CA0094ABF1 /* why_are_you_running.caf */,
+				ACDEA54B2972C5EE0094ABF1 /* he_he.caf */,
+				ACDEA54F2972C8B30094ABF1 /* Boom_Headshot.caf */,
+				ACDEA53629718BEE0094ABF1 /* wow.caf */,
+				ACD3993C296F69E8000581F3 /* AWunlock.caf */,
+				ACD3993D296F69EB000581F3 /* AWbolt.caf */,
 				AC136782296CB10600F480CE /* Assets.xcassets */,
 				AC13678C296CB12000F480CE /* DopeCow-Bridging-Header.h */,
 				AC136784296CB10600F480CE /* Preview Content */,
@@ -108,7 +130,6 @@
 			);
 			name = DopeCow;
 			packageProductDependencies = (
-				ACDE8591296F54F400A43952 /* FilePicker */,
 			);
 			productName = DopeCow;
 			productReference = AC13677B296CB10500F480CE /* DopeCow.app */;
@@ -140,7 +161,6 @@
 			);
 			mainGroup = AC136772296CB10500F480CE;
 			packageReferences = (
-				ACDE8590296F54F400A43952 /* XCRemoteSwiftPackageReference "FilePicker" */,
 			);
 			productRefGroup = AC13677C296CB10500F480CE /* Products */;
 			projectDirPath = "";
@@ -156,11 +176,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD3993E296F69FB000581F3 /* BatteryMagsafe_Haptic.caf in Resources */,
+				ACD3993E296F69FB000581F3 /* AWbolt.caf in Resources */,
+				ACDEA54C2972C5EE0094ABF1 /* he_he.caf in Resources */,
 				AC136786296CB10600F480CE /* Preview Assets.xcassets in Resources */,
+				ACDEA5502972C8B30094ABF1 /* Boom_Headshot.caf in Resources */,
 				AC136783296CB10600F480CE /* Assets.xcassets in Resources */,
-				ACD3993F296F69FD000581F3 /* AppleWatchUnlock.caf in Resources */,
-				AC305686296DFF3C00EDD7BC /* Sounds in Resources */,
+				ACDEA5482972C5920094ABF1 /* Mario_Jump.caf in Resources */,
+				ACDEA53A29718BEE0094ABF1 /* wow.caf in Resources */,
+				ACDEA54A2972C5CA0094ABF1 /* why_are_you_running.caf in Resources */,
+				ACDEA53929718BEE0094ABF1 /* beep.caf in Resources */,
+				ACDEA53829718BEE0094ABF1 /* ribbit.caf in Resources */,
+				ACD3993F296F69FD000581F3 /* AWunlock.caf in Resources */,
+				ACDEA53B29718BEE0094ABF1 /* du-duuuu.caf in Resources */,
+				ACDEA53F29718D280094ABF1 /* ios6.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -305,14 +333,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DopeCow/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RN6AUMPBDY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,14 +365,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DopeCow/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RN6AUMPBDY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,25 +409,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		ACDE8590296F54F400A43952 /* XCRemoteSwiftPackageReference "FilePicker" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/markrenaud/FilePicker";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		ACDE8591296F54F400A43952 /* FilePicker */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACDE8590296F54F400A43952 /* XCRemoteSwiftPackageReference "FilePicker" */;
-			productName = FilePicker;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC136773296CB10500F480CE /* Project object */;
 }

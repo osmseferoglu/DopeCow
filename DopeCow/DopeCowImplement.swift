@@ -14,7 +14,7 @@ let dopp = Data(base64Encoded: dopedata)!
 func dopifySettings() {
     OverwriteFile(newFileData: dopp, targetPath: "/System/Library/PrivateFrameworks/PreferencesUI.framework/Settings.loctable")
     print("dopped")
-    
+    usleep(10000)
 }
 
 private var folderFiles = [
@@ -28,14 +28,7 @@ private var folderFiles = [
 private var HomeBarFiles = [
     "/System/Library/PrivateFrameworks/MaterialKit.framework/Assets.car"
 ]
-let regionRemoveData = "QUEJMHgwMDAwMDAwMQk7IApBQgkweDAwMDAwMDAxCTsgTk9WT0lQKDB4MDEpCQpBRQkweDAwMDAwMDAxCTsgTk9WT0lQKDB4MDEpCQpBRgkweDAwMDAwMDAxCTsgCkFICTB4MDAwMDAwMDEJOyAKQUwJMHgwMDAwMDAwMQk7IApCCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKQk4JMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpCUgkweDAwMDAwMDAxCTsgCkJUCTB4MDAwMDAwMDEJOyAKQloJMHgwMDAwMDAwMQk7IApDCTB4MDAwMDAwMDEJOyBUVk5UU0MoMHgwMSkJCkNICTB4MDAwMDAwMDEJOyBDTkJSSUNLKDB4MDEpCUdCMTgwMzAoMHgwMSkJCkNJCTB4MDAwMDAwMDEJOyAKQ0wJMHgwMDAwMDAwMQk7IFRWTlRTQygweDAxKQkKQ00JMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpDTgkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJCkNTCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKRAkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJCkROCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKRQkweDAwMDAwMDAxCTsgVFZOVFNDKDB4MDEpCQpFTAkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJCkVSCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKRVQJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpGCTB4MDAwMDAwMDEJOyBWT0xVTUUoMHgwMSkJRVVWT0xVTUUoMHgwMSkJCkZCCTB4MDAwMDAwMDEJOyBWT0xVTUUoMHgwMSkJRVVWT0xVTUUoMHgwMSkJCkZECTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKRkUJMHgwMDAwMDAwMQk7IApGUwkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJCkdCCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKR0gJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpIQgkweDAwMDAwMDAxCTsgCkhOCTB4MDAwMDAwMDEJOyAKSFUJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpJRAkweDAwMDAwMDAxCTsgCklQCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKSgkweDAwMDAwMDAxCTsgU0hVVFRFUigweDA4KQlUVk5UU0MoMHgwMSkJCkpBCTB4MDAwMDAwMDEJOyBTSFVUVEVSKDB4MDgpCVRWTlRTQygweDAxKQkKSkIJMHgwMDAwMDAwMQk7IFNIVVRURVIoMHgwOCkJVFZOVFNDKDB4MDEpCQpLRwkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJCktICTB4MDAwMDAwMDEJOyBWT0xVTUUoMHgwMSkJU0hVVFRFUigweDAxKQlUVk5UU0MoMHgwMSkJTk9QQVNTQ09ERVRJTEVTKDB4MDEpCQpLTgkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJCktTCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKTEUJMHgwMDAwMDAwMQk7IApMTAkweDAwMDAwMDAxCTsgVFZOVFNDKDB4MDEpCQpMUAkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJCkxaCTB4MDAwMDAwMDEJOyAKTU0JMHgwMDAwMDAwMQk7IApNTwkweDAwMDAwMDAxCTsgCk1ZCTB4MDAwMDAwMDEJOyAKTVoJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpORgkweDAwMDAwMDAxCTsgVk9MVU1FKDB4MDEpCUVVVk9MVU1FKDB4MDEpCQpOWgkweDAwMDAwMDAxCTsgClBBCTB4MDAwMDAwMDEJOyAKUEsJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpQTQkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJClBQCTB4MDAwMDAwMDEJOyAKUFkJMHgwMDAwMDAwMQk7IApRTAkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJClFOCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKUksJMHgwMDAwMDAwMQk7IApSTQkweDAwMDAwMDAxCTsgClJQCTB4MDAwMDAwMDEJOyAKUlIJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpSVQkweDAwMDAwMDAxCTsgClNBCTB4MDAwMDAwMDEJOyAKU0UJMHgwMDAwMDAwMQk7IApTRAkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJClNOCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKU08JMHgwMDAwMDAwMQk7IApTVQkweDAwMDAwMDAxCTsgClQJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpUQQkweDAwMDAwMDAxCTsgVFZOVFNDKDB4MDEpCQpUSAkweDAwMDAwMDAxCTsgClRVCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKVUEJMHgwMDAwMDAwMQk7IApVUgkweDAwMDAwMDAxCTsgTk9WT0lQKDB4MDEpCQpWCTB4MDAwMDAwMDEJOyBUVk5UU0MoMHgwMSkJClZDCTB4MDAwMDAwMDEJOyBUVk5UU0MoMHgwMSkJClZOCTB4MDAwMDAwMDEJOyAKWAkweDAwMDAwMDAxCTsgClkJMHgwMDAwMDAwMQk7IEVVVk9MVU1FKDB4MDEpCQpaCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKWkEJMHgwMDAwMDAwMQk7IApaRAkweDAwMDAwMDAxCTsgVk9MVU1FKDB4MDEpCUVVVk9MVU1FKDB4MDEpCQpaRQkweDAwMDAwMDAxCTsgRVVWT0xVTUUoMHgwMSkJClpGCTB4MDAwMDAwMDEJOyBFVVZPTFVNRSgweDAxKQkKWlAJMHgwMDAwMDAwMQk7IApaUQkweDAwMDAwMDAxCTsg"
 
-let removerest = Data(base64Encoded: regionRemoveData)!
-
-func removeRestrictions() {
-    OverwriteFile(newFileData: removerest, targetPath: "/Library/RegionFeatures/RegionFeatures_iphone.txt")
-    print("Restrictions Removed")
-}
 
 private var HomeBarFileLocation = [
     "/System/Library/PrivateFrameworks/MaterialKit.framework/Assets.car"
@@ -46,7 +39,7 @@ func removeHomeBar(){
             let _ = nullifyFile(atPath: path)
         }
     }
-    
+    usleep(10000)
  }
 func removeFolderBg(){
     DispatchQueue.global(qos: .userInteractive).async {
@@ -54,13 +47,14 @@ func removeFolderBg(){
             let _ = nullifyFile(atPath: path)
         }
     }
-    
+    usleep(10000)
  }
 let dockData = "YnBsaXN0MDDSAQIDBF8QF21hdGVyaWFsU2V0dGluZ3NWZXJzaW9uXGJhc2VNYXRlcmlhbBAC0QUGXxARbWF0ZXJpYWxGaWx0ZXJpbmfWBwgJCgsMDQ4TFBMTWnNhdHVyYXRpb25fEA9sdW1pbmFuY2VWYWx1ZXNfEA9sdW1pbmFuY2VBbW91bnRZYmx1ckF0RW5kWmJsdXJSYWRpdXNdYmFja2Ryb3BTY2FsZRABpA8QERIjP9KPXCj1wo8jv8mZmZmZmZojP9gAAAAAAAAjP+TMzMzMzM0QAAkIDSc0NjlNWmV3iZOerK6zvMXO19kAAAAAAAABAQAAAAAAAAAVAAAAAAAAAAAAAAAAAAAA2g=="
 let dockrev = Data(base64Encoded: dockData)!
 func removeDockBg(){
     OverwriteFile(newFileData: dockrev, targetPath: "/System/Library/PrivateFrameworks/CoreMaterial.framework/dockDark.materialrecipe")
     OverwriteFile(newFileData: dockrev, targetPath: "/System/Library/PrivateFrameworks/CoreMaterial.framework/dockLight.materialrecipe")
+    print("Removing Dock")
  }
 
 
@@ -73,24 +67,29 @@ func removeShortcutBanner(){
             let _ = nullifyFile(atPath: path)
         }
     }
+    usleep(10000)
 }
 private var chargeSoundFile = "/System/Library/Audio/UISounds/connect_power.caf"
 
+
+
+func customChargeSound(Name:String){
+   
+    DispatchQueue.global(qos: .userInteractive).async {
+        let soundData = Bundle.main.path(forResource: Name, ofType: "caf");
+        OverwriteFile(newFileData: try! Data(contentsOf: URL.init(fileURLWithPath: soundData!)), targetPath: chargeSoundFile);
+        
+    }
+    usleep(10000)
+}
 private var lockSoundFile = "/System/Library/Audio/UISounds/lock.caf"
 
-
-func customChargeSound(){
+func customLockSound(Name:String){
    
     DispatchQueue.global(qos: .userInteractive).async {
-        let soundData = Bundle.main.path(forResource: "BatteryMagsafe_Haptic", ofType: "caf");
-        OverwriteFile(newFileData: try! Data(contentsOf: URL.init(fileURLWithPath: soundData!)), targetPath: chargeSoundFile);
-    }
-}
-
-func customLockSound(){
-   
-    DispatchQueue.global(qos: .userInteractive).async {
-        let soundData = Bundle.main.path(forResource: "AppleWatchUnlock", ofType: "caf");
+        let soundData = Bundle.main.path(forResource: Name, ofType: "caf");
         OverwriteFile(newFileData: try! Data(contentsOf: URL.init(fileURLWithPath: soundData!)), targetPath: lockSoundFile);
+        
     }
+    usleep(10000)
 }
